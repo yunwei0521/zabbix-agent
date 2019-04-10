@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "{#ES_HOME}": "/home/es/elasticsearch-6.2.1-A1",
+            "{#ES_TCP_PORT}": "9310",
+            "{#ES_HTTP_PORT}": "9210"
+        },
+        {
+            "{#ES_HOME}": "/home/es/elasticsearch-6.2.1-A2",
+            "{#ES_TCP_PORT}": "9311",
+            "{#ES_HTTP_PORT}": "9211"
+        },
+        {
+            "{#ES_HOME}": "/home/es/elasticsearch-6.2.1-A3",
+            "{#ES_TCP_PORT}": "9312",
+            "{#ES_HTTP_PORT}": "9212"
+        }
+    ]
+}

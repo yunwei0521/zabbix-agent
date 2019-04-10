@@ -1,0 +1,202 @@
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+
+
+***********************************************************************
+Fatal NI connect error 12532, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=)(CID=(PROGRAM=sqlplus)(HOST=client1.forlink.com)(USER=root)))(ADDRESS=(PROTOCOL=TCP)(HOST=0.0.0.111)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.1.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.1.0 - Production
+  Time: 06-APR-2016 16:46:33
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12532
+    TNS-12532: TNS:invalid argument
+    ns secondary err code: 12560
+    nt main err code: 502
+    TNS-00502: Invalid argument
+    nt secondary err code: 22
+    nt OS err code: 0
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+
+
+***********************************************************************
+Fatal NI connect error 12532, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=)(CID=(PROGRAM=sqlplus)(HOST=client1.forlink.com)(USER=root)))(ADDRESS=(PROTOCOL=TCP)(HOST=0.0.0.111)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.1.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.1.0 - Production
+  Time: 06-APR-2016 16:48:16
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12532
+    TNS-12532: TNS:invalid argument
+    ns secondary err code: 12560
+    nt main err code: 502
+    TNS-00502: Invalid argument
+    nt secondary err code: 22
+    nt OS err code: 0
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+
+
+***********************************************************************
+Fatal NI connect error 12532, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=)(CID=(PROGRAM=sqlplus)(HOST=client1.forlink.com)(USER=root)))(ADDRESS=(PROTOCOL=TCP)(HOST=0.0.0.111)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.1.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.1.0 - Production
+  Time: 06-APR-2016 16:48:57
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12532
+    TNS-12532: TNS:invalid argument
+    ns secondary err code: 12560
+    nt main err code: 502
+    TNS-00502: Invalid argument
+    nt secondary err code: 22
+    nt OS err code: 0
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+
+
+***********************************************************************
+Fatal NI connect error 12532, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=)(CID=(PROGRAM=sqlplus)(HOST=client1.forlink.com)(USER=root)))(ADDRESS=(PROTOCOL=TCP)(HOST=0.0.0.111)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.1.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.1.0 - Production
+  Time: 06-APR-2016 16:49:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12532
+    TNS-12532: TNS:invalid argument
+    ns secondary err code: 12560
+    nt main err code: 502
+    TNS-00502: Invalid argument
+    nt secondary err code: 22
+    nt OS err code: 0
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+
+NL-08014: Failed to initialize Diagnosability framework, falling back to old network tracing/logging 
+ 
+ NL-08015: Client(OCI) side initialization of Diagnosability framework failed
+  ORA-48165: user missing read, write, or exec permission on specified ADR Base directory []
+User inputted base directory is invalid [48187] [/app/oracle]
+

@@ -1,0 +1,4 @@
+---
+# tasks file for yum
+- name: create or update Chinadaas Repos
+  template: src=ChinaDaas.repo.j2 dest=/etc/yum.repos.d/ChinaDaas.repo

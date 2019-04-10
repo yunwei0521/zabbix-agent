@@ -1,0 +1,23 @@
+---
+- name: install zabbix-agent request rpms
+  yum: name={{ item }}  state=installed disablerepo=* enablerepo=chinadaas_base,chinadaas_epel,chinadaas_zabbix,chinadaas_updates update_cache=yes
+  with_items:
+  - sed
+  - zabbix-agent
+  - zabbix-sender
+  - python-psutil
+  - libtool-ltdl
+  - sysstat
+  - MegaCli
+  - python-pip
+- name: python module install
+  shell: pip install pymongo==3.5.1  --index http://mirrors.aliyun.com/pypi/simple/
+  ignore_errors: True
+- name: config zabbix-agent
+  template: src=zabbix_agentd.conf.j2 dest=/etc/zabbix/zabbix_agentd.conf
+- name: unzip zabbix_agent_custom
+  unarchive: src={{ zabbix_package }} dest=/etc/zabbix
+- name: message log changed to read for zabbix
+  acl: name=/var/log/messages entity=zabbix etype=user permissions="r" state=present
+- name: zabbix-agent service restart
+  service: name=zabbix-agent state=restarted enabled=yes

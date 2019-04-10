@@ -1,0 +1,2 @@
+zabbix_server_ip: 192.168.203.91
+zabbix_package: zabbix_agent_custom-1.0.19.tar.gz

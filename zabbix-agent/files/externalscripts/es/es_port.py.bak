@@ -1,0 +1,27 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+import json
+import subprocess
+import socket
+json_data = {"data":[]}
+
+def run_cmd(cmd):
+  p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
+  return p.stdout
+
+
+getpids_cmd = "jps  | grep Elasticsearch | awk '{print $1}'"
+
+pids = run_cmd(getpids_cmd).readlines()
+for pid in pids:
+  gethome_cmd="""ps -ef | grep %d | grep -v grep | grep -Po '\-Des\.path\.home\=.*? ' | awk -F '=' '{print $2}'""" %int(pid)
+#  print gethome_cmd
+  home = run_cmd(gethome_cmd).read()
+  
+  getport_cmd="""netstat -lpn | grep %d | awk '{print $4}' | awk -F ':' '{print $2}'""" %int(pid)
+  for port in run_cmd(getport_cmd).readlines():
+    dic_content = { "{#ES_HOME}": home.strip(), "{#ES_PORT}": port.strip() }
+    json_data['data'].append(dic_content)
+
+result = json.dumps(json_data,sort_keys=True,indent=4)
+print result

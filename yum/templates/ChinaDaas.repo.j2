@@ -1,0 +1,50 @@
+{% if ansible_os_family == "RedHat" and ansible_distribution == "RedHat" %}
+[chinadaas_base]
+name=ChinaDaas RHEL{{ os_major_version }} Base
+baseurl=http://192.168.203.10/rhel/{{ os_major_version }}/{{ os_version }}
+enabled={{ base_enable }}
+gpgcheck=0
+{% endif %}
+{% if ansible_os_family == "RedHat" and ansible_distribution == "CentOS" %}
+[chinadaas_base]
+name=ChinaDaas Centos{{ os_major_version }} Base
+baseurl=http://192.168.203.10/centos/{{ os_major_version }}/{{ os_version }}
+enabled={{ base_enable }}
+gpgcheck=0
+
+[chinadaas_updates]
+name=ChinaDaas Centos{{ os_major_version }} Updates
+baseurl=http://192.168.203.10/centos/{{ os_major_version }}/Updates/
+enabled={{ update_enable }}
+gpgcheck=0
+{% endif %}
+
+[chinadaas_epel]
+name=ChinaDaas epel for Enterprise Linux {{ os_major_version }}
+baseurl=http://192.168.203.10/epel/{{ os_major_version }}/Packages/
+enabled={{ epel_enable }}
+gpgcheck=0
+
+[chinadaas_zabbix]
+name=ChinaDaas zabbix for Enterprise Linux {{ os_major_version }}
+baseurl=http://192.168.203.10/zabbix3.0/{{ os_major_version }}/Packages/
+enabled={{ zabbix_enable }}
+gpgcheck=0
+
+[chinadaas_nginx]
+name=ChinaDaas nginx for Enterprise Linux {{ os_major_version }}
+baseurl=http://192.168.203.10/nginx/{{ os_major_version }}/Packages/
+enabled={{ nginx_enable }}
+gpgcheck=0
+
+[chinadaas_docker_engine]
+name=ChinaDaas docker_engine for Enterprise Linux {{ os_major_version }}
+baseurl=http://192.168.203.10/docker-engine/{{ os_major_version }}/Packages/
+enabled={{ docker_engine_enable }}
+gpgcheck=0
+
+[chinadaas_glusterfs]
+name=ChinaDaas glusterfs for Enterprise Linux {{ os_major_version }}
+baseurl=http://192.168.203.10/glusterfs/{{ os_major_version }}/Packages/
+enabled={{ glusterfs_enable }}
+gpgcheck=0

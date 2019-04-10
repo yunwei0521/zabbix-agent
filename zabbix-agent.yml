@@ -1,0 +1,8 @@
+#!/usr/bin/env ansible-playbook
+- hosts: zabbix-agent
+  remote_user: root
+  vars_files:
+  - conf.yml
+  roles:
+  - role: yum
+  - role: zabbix-agent
